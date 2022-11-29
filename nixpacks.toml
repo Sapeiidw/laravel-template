@@ -1,5 +1,6 @@
 [phases.install]
 cmds = ["composer install --ignore-platform-reqs"]
 
-[phases.prod]
-cmds = ["npm run prod"]
+[phases.build]
+cmds = ["npm run install"]
+cmds = ["npm run dev"]
